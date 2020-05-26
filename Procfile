@@ -1,2 +1,1 @@
-
-web: python vendorsystem/manage.py runserver 127.0.0.1:8080
+web: gunicorn --pythonpath vendorsystem vendorsystem.wsgi:application
