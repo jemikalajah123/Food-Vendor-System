@@ -141,3 +141,4 @@ EMAIL_PORT = 465
 
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
